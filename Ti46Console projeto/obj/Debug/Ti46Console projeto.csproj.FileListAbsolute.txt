@@ -1,0 +1,7 @@
+C:\Users\alaa.maelsaka\source\repos\Ti46Console projeto\Ti46Console projeto\obj\Debug\Ti46Console projeto.csproj.AssemblyReference.cache
+C:\Users\alaa.maelsaka\source\repos\Ti46Console projeto\Ti46Console projeto\obj\Debug\Ti46Console projeto.csproj.CoreCompileInputs.cache
+C:\Users\alaa.maelsaka\source\repos\Ti46Console projeto\Ti46Console projeto\bin\Debug\Ti46Console projeto.exe.config
+C:\Users\alaa.maelsaka\source\repos\Ti46Console projeto\Ti46Console projeto\bin\Debug\Ti46Console projeto.exe
+C:\Users\alaa.maelsaka\source\repos\Ti46Console projeto\Ti46Console projeto\bin\Debug\Ti46Console projeto.pdb
+C:\Users\alaa.maelsaka\source\repos\Ti46Console projeto\Ti46Console projeto\obj\Debug\Ti46Console projeto.exe
+C:\Users\alaa.maelsaka\source\repos\Ti46Console projeto\Ti46Console projeto\obj\Debug\Ti46Console projeto.pdb
