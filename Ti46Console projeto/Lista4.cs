@@ -35,17 +35,17 @@ namespace Ti46Console_projeto
 
 
             Console.Clear();
-            Console.WriteLine("Escolha uma operação:\n");
-            Console.WriteLine("1 - Exercício 1 da lista 4");
-            Console.WriteLine("2 - Exercício 2 da lista 4");
-            Console.WriteLine("3 - Exercício 3 da lista 4");
-            Console.WriteLine("4 - Exercício 4 da lista 4");
-            Console.WriteLine("5 - Exercício 5 da lista 4");
-            Console.WriteLine("6 - Exercício 6 da lista 4");
-            Console.WriteLine("7 - Exercício 7 da lista 4");
-            Console.WriteLine("8 - Exercício 8 da lista 4");
-            Console.WriteLine("9 - Exercício 9 da lista 4");
-            Console.WriteLine("10 - Exercício 10 da lista 4");
+            Console.WriteLine("============= Lista 4 =============\n\n");
+            Console.WriteLine("1 - Exercício 1: Escreva um programa que solicite um número ao usuário e verifique se ele é par ou ímpar");
+            Console.WriteLine("2 - Exercício 2: Peça ao usuário para inserir sua idade e classifique-o como Criança (0-12), Adolescente (13-17), Adulto (18-64), ou Idoso (65+)");
+            Console.WriteLine("3 - Exercício 3: Crie um programa que receba uma nota (0 a 10) e exiba se o aluno foi Aprovado(nota maior ou igual a 6), Recuperação (nota entre 4 e 5.9) ou Reprovado (nota menor que 4)");
+            Console.WriteLine("4 - Exercício 4: Peça ao usuário para informar seu peso e altura e, em seguida, calcule o Índice de Massa Corporal (IMC) e determine sua categoria: Abaixo do peso, Peso normal, Sobrepeso ou Obesidade");
+            Console.WriteLine("5 - Exercício 5: Escreva um programa que receba dois números do usuário e exiba qual é o maior, ou informe se os números são iguais");
+            Console.WriteLine("6 - Exercício 6: Peça ao usuário sua idade e informe se ele é obrigado a votar (18-70 anos), voto facultativo (16-17 ou acima de 70), ou se não pode votar (abaixo de 16 anos)");
+            Console.WriteLine("7 - Exercício 7: Crie um programa que receba o valor de uma compra e aplique um desconto de 10% caso o valor seja superior a R$100");
+            Console.WriteLine("8 - Exercício 8: Peça ao usuário para informar a temperatura em graus Celsius e classifique se está Frio (abaixo de 15°C), Agradável (15-25°C), ou Quente (acima de 25°C)");
+            Console.WriteLine("9 - Exercício 9: Solicite três números ao usuário e calcule a média. Caso a média seja maior que 7, exiba Aprovado, senão exiba Reprovado");
+            Console.WriteLine("10 - Exercício 10: Peça ao usuário que insira um ano e verifique se ele é bissexto (divisível por 4 e não divisível por 100, exceto se for divisível por 400)\n\n");
 
             string escolha = Console.ReadLine();
             switch (escolha)

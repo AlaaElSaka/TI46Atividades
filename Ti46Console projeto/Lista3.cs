@@ -25,13 +25,13 @@ namespace Ti46Console_projeto
 
 
             Console.Clear();
-            Console.WriteLine("Escolha uma operação:\n");
-            Console.WriteLine("1 - Exercício 1 da lista 3");
-            Console.WriteLine("2 - Exercício 2 da lista 3");
-            Console.WriteLine("3 - Exercício 3 da lista 3");
-            Console.WriteLine("4 - Exercício 4 da lista 3");
-            Console.WriteLine("5 - Exercício 5 da lista 3");
-            Console.WriteLine("6 - Exercício 6 da lista 3");
+            Console.WriteLine("============= Lista 3 =============\n\n");
+            Console.WriteLine("1 - Exercício 1: Faça um programa que receba 3 valores e retorne a soma deles");
+            Console.WriteLine("2 - Exercício 2: Faça um programa que receba quatro notas e retorne a média");
+            Console.WriteLine("3 - Exercício 3: Faça um programa que receba um nome enquanto o nome for diferente de João continuar pedindo o nome");
+            Console.WriteLine("4 - Exercício 4: Faça um programa que retorne à quantidade de números pares existente entre 35 e 98111");
+            Console.WriteLine("5 - Exercício 5: FaÇa um programa que some todos os números ímpares de 1 até 5000");
+            Console.WriteLine("6 - Exercício 6:Faça um programa que receba um número e usando laços de repetição calcule e mostre a tabuada desse número\n\n");
 
             string escolha=Console.ReadLine();
             switch (escolha)

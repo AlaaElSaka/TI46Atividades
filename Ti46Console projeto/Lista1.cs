@@ -34,17 +34,17 @@ namespace Ti46Console_projeto
             //Faça um algoritmo que leia a largura e altura de uma parede, calcule e mostre a área a ser pintada e a quantidade de tinta necessária para o serviço,sabendo que cada litro de tinta pinta uma área de 2metros quadrados.
 
             Console.Clear();
-            Console.WriteLine("Escolha uma operação:\n");
-            Console.WriteLine("1 - Exercício 1 da lista 1");
-            Console.WriteLine("2 - Exercício 2 da lista 1");
-            Console.WriteLine("3 - Exercício 3 da lista 1");
-            Console.WriteLine("4 - Exercício 4 da lista 1");
-            Console.WriteLine("5 - Exercício 5 da lista 1");
-            Console.WriteLine("6 - Exercício 6 da lista 1");
-            Console.WriteLine("7 - Exercício 7 da lista 1");
-            Console.WriteLine("8 - Exercício 8 da lista 1");
-            Console.WriteLine("9 - Exercício 9 da lista 1");
-            Console.WriteLine("10 - Exercício 10 da lista 1");
+            Console.WriteLine("============= Lista 1 =============\n\n");
+            Console.WriteLine("1 - Exercício 1 : Escreva um programa que mostre na tela a mensagem Olá, Mundo!");
+            Console.WriteLine("2 - Exercício 2 : Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boasvindas para ela");
+            Console.WriteLine("3 - Exercício 3 : Crie um programa que leia o nome e o salário de um funcionário, mostrando no final uma mensagem");
+            Console.WriteLine("4 - Exercício 4 : Desenvolva um algoritmo que leia dois números inteiros e mostre o somatório entre eles");
+            Console.WriteLine("5 - Exercício 5 : Faça um programa que leia as duas notas de um aluno em uma matéria e mostre na tela a sua média na disciplina");
+            Console.WriteLine("6 - Exercício 6 : Faça um programa que leia um número inteiro e mostre o seu antecessor e seu sucessor");
+            Console.WriteLine("7 - Exercício 7 : Crie um algoritmo que leia um número real e mostre na tela o seu dobro e a sua terça parte");
+            Console.WriteLine("8 - Exercício 8 : Desenvolva um programa que leia uma distância em metros e mostre os valores relativos em outras medidas");
+            Console.WriteLine("9 - Exercício 9 : Faça um algoritmo que leia quanto dinheiro uma pessoa tem na carteira (em R$) e mostre quantos dólares ela pode comprar. Considere US$1,00 = R$3,45");
+            Console.WriteLine("10 - Exercício 10 : Faça um algoritmo que leia a largura e altura de uma parede, calcule e mostre a área a ser pintada e a quantidade de tinta necessária para o serviço,sabendo que cada litro de tinta pinta uma área de 2metros quadrados\n\n");
            
             string escolha=Console.ReadLine();
             switch (escolha)

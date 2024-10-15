@@ -31,21 +31,22 @@ namespace Ti46Console_projeto
             //exercicio10();
             //Faça um algoritmo que leia 3 valores retorne do menor para o maior ordenados.
 
-
+            //exercicio11();
             //Ler a hora de início e a hora de fim de um jogo de Xadrez (considere apenas horas inteiras, sem os minutos) e calcule a duração do jogo em horas, sabendo-se que o tempo máximo de duração do jogo é de 24 horas e que o jogo pode iniciar em um dia e terminar no dia seguinte retornar quantas horas estão jogando e quantidade de horas restante ou quantidade de horas excedente.
 
             Console.Clear();
-            Console.WriteLine("Escolha uma operação:\n");
-            Console.WriteLine("1 - Exercício 1 da lista 2");
-            Console.WriteLine("2 - Exercício 2 da lista 2");
-            Console.WriteLine("3 - Exercício 3 da lista 2");
-            Console.WriteLine("4 - Exercício 4 da lista 2");
-            Console.WriteLine("5 - Exercício 5 da lista 2");
-            Console.WriteLine("6 - Exercício 6 da lista 2");
-            Console.WriteLine("7 - Exercício 7 da lista 2");
-            Console.WriteLine("8 - Exercício 8 da lista 2");
-            Console.WriteLine("9 - Exercício 9 da lista 2");
-            Console.WriteLine("10 - Exercício 10 da lista 2");
+            Console.WriteLine("============= Lista 2 =============\n\n");
+            Console.WriteLine("1 - Exercício 1 : Escreva um algoritmo que leia um número e o imprima caso ele seja maior que 20");
+            Console.WriteLine("2 - Exercício 2 : Ler um valor e escrever a mensagem É MAIOR QUE 10! se o valor lido for maior que 10, caso contrário escrever NÃO É MAIOR QUE 10!");
+            Console.WriteLine("3 - Exercício 3 : Faça um algoritmo que leia os valores A, B, C e imprima na tela se a soma de A + B é menor que C.");
+            Console.WriteLine("4 - Exercício 4 : Construa um algoritmo que leia dois valores numéricos inteiros e efetue a adição; caso o resultado seja maior que 10, apresentá-lo.");
+            Console.WriteLine("5 - Exercício 5 : Faça um algoritmo que leia o nome, o sexo e o estado civil de uma pessoa. Caso sexo seja “F” e estado civil seja “CASADA”, solicitar o tempo de casada (anos).");
+            Console.WriteLine("6 - Exercício 6 : Faça um algoritmo para receber um número qualquer e informar na tela se é par ou ímpar");
+            Console.WriteLine("7 - Exercício 7 : Faça um algoritmo que leia dois valores inteiros A e B se os valores forem iguais deverá se somar os dois, caso contrário multiplique A por B. Ao final de qualquer um dos cálculos deve-se atribuir o resultado para uma variável C e mostrar seu conteúdo na tela");
+            Console.WriteLine("8 - Exercício 8 : Encontrar o dobro de um número caso ele seja positivo e o seu triplo caso seja negativo, imprimindo o resultado.");
+            Console.WriteLine("9 - Exercício 9 : Faça um algoritmo que leia 3 valores retorno do maior para o menor ordenados.");
+            Console.WriteLine("10 - Exercício 10 : Faça um algoritmo que leia 3 valores retorne do menor para o maior ordenados");
+            Console.WriteLine("11 - Exercício 11 : Ler a hora de início e a hora de fim de um jogo de Xadrez (considere apenas horas inteiras, sem os minutos) e calcule a duração do jogo em horas, sabendo-se que o tempo máximo de duração do jogo é de 24 horas e que o jogo pode iniciar em um dia e terminar no dia seguinte retornar quantas horas estão jogando e quantidade de horas restante ou quantidade de horas excedente\n\n");
 
             string escolha=Console.ReadLine(); 
             switch(escolha)
@@ -90,6 +91,10 @@ namespace Ti46Console_projeto
                     exercicio10();
                     break;
 
+                case "11":
+                    exercicio11();
+                    break;
+
                 default:
                     Console.WriteLine("Operação inválida.");
                     break;
@@ -104,6 +109,47 @@ namespace Ti46Console_projeto
 
     }
 
+        private static void exercicio11()
+        {
+            string dia;
+            int início, fim, duração;
+            Console.WriteLine("O jogo de xadrez terminou no mesmo dia ? (S/N)");
+            dia = Console.ReadLine().ToUpper();
+            if (dia =="S")
+            {
+                Console.WriteLine("Digite hora de início de jogo de Xadrez");
+                início = int.Parse(Console.ReadLine());
+                Console.WriteLine("Digite hora de fim de jogo de Xadrez");
+                fim = int.Parse(Console.ReadLine());
+                duração = fim - início;
+                
+                Console.WriteLine($" Duração do jogo em horas = {duração} \n Horas restante = {24- duração} ");
+
+
+            }
+            else if (dia =="N")
+            {
+                Console.WriteLine("Digite hora de início de jogo de Xadrez");
+                início = int.Parse(Console.ReadLine());
+                Console.WriteLine("Digite hora de fim de jogo de Xadrez no outro dia");
+                fim = int.Parse(Console.ReadLine());
+                duração = (fim + 24) - início;
+                Console.WriteLine($" Duração do jogo em horas = {(fim+24) - início} \n ");
+                if (duração > 24)
+                {
+                    Console.WriteLine($"Horas excedente = {duração - 24}");
+                } 
+                else if (duração < 24)
+                {
+                    Console.WriteLine($"Horas restante = {24-duração}");
+                }
+                else 
+                {
+                    Console.WriteLine("Horas quantidade = 24 ");
+                }
+            }
+            else { Console.WriteLine("Operação inválida"); }
+        }
 
         private static void exercicio10()
         {

@@ -21,7 +21,7 @@ namespace Ti46Console_projeto
                 Console.WriteLine("2 - Exercícios da lista 2\n");
                 Console.WriteLine("3 - Exercícios da lista 3\n");
                 Console.WriteLine("4 - Exercícios da lista 4\n\n");
-                Console.WriteLine(" Escola 0 para Sair ");
+                Console.WriteLine(" Escolha 0 para Sair \n\n");
 
 
 
